@@ -4,7 +4,7 @@
     "position": "top",
 
     // If height property would be not present, it'd be calculated dynamically
-    "height": 38,
+    "height": 32,
 
     "modules-left": [
 		//"custom/weather",
@@ -100,7 +100,7 @@
     
     "memory": {
         "interval": 5,
-        "format": "{:>3}% ",
+        "format": " {:02}% ",
         "on-click": "footclient -T waybar_htop -e htop", 
         "states": {
             "warning": 70,
@@ -110,7 +110,7 @@
 
     "cpu": {
         "interval": 5,
-        "format": "{usage:>3}% ",
+        "format": " {:02.0f}% ",
         "states": {
             "warning": 70,
             "critical": 90,
