@@ -1,6 +1,6 @@
 
 # Path to your oh-my-zsh installation.
-ZSH=/usr/share/oh-my-zsh/
+ZSH=~/.oh-my-zsh/
 
 # Path to powerlevel10k theme
 source ~/dotfiles/themes/powerlevel10k/powerlevel10k.zsh-theme
